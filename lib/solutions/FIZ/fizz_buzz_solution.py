@@ -10,6 +10,6 @@ def fizz_buzz(number):
         print("Fizz")
     
     else:
-        print(str(1))
+        print("1")
 
-#fizz_buzz(11)
+fizz_buzz(1)
