@@ -1,7 +1,7 @@
 # noinspection PyUnusedLocal
 def fizz_buzz(number):
     if number%3==0 and number%5==0:
-        return("Fizz Buzz") 
+        return("fizz buzz") 
     
     elif number%5==0:
         return("buzz")
@@ -13,3 +13,4 @@ def fizz_buzz(number):
         return(number)
 
 #fizz_buzz(1)
+
