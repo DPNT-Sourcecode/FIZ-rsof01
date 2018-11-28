@@ -4,10 +4,10 @@ def fizz_buzz(number):
         return("Fizz Buzz") 
     
     elif number%5==0:
-        return("Buzz")
+        return("buzz")
     
     elif number%3==0:
-        return("Fizz")
+        return("fizz")
     
     else:
         return(number)
