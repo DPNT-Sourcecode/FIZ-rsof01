@@ -6,7 +6,3 @@ def hello(friend_name):
     return("Hello, %s!" %friend_name)
 
 #print(hello("Mike"))
-
-
-
-
