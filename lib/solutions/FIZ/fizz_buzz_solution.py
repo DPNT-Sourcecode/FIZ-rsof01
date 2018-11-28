@@ -1,15 +1,15 @@
 # noinspection PyUnusedLocal
 def fizz_buzz(number):
     if number%3==0 and number%5==0:
-        print("Fizz Buzz") 
+        return("Fizz Buzz") 
     
     elif number%5==0:
-        print("Buzz")
+        return("Buzz")
     
     elif number%3==0:
-        print("Fizz")
+        return("Fizz")
     
     else:
-        print("1")
+        return("1")
 
-fizz_buzz(1)
+#fizz_buzz(1)
