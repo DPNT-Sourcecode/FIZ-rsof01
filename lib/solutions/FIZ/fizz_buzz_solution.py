@@ -13,4 +13,3 @@ def fizz_buzz(number):
         return(number)
 
 fizz_buzz(1)
-
