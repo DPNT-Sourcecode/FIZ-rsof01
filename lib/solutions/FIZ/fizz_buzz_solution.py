@@ -1,12 +1,12 @@
 # noinspection PyUnusedLocal
 def fizz_buzz(number):
-    if (number%3==0 or"3" in str(number)) and (number%5== 0 or "5" in str(number)):
+    if number%3==0 and number%5== 0:
         return("fizz buzz") 
     
-    elif number%5==0 or "5" in str(number):
+    elif number%5==0:
         return("buzz")
     
-    elif number%3==0 or "3" in str(number):
+    elif number%3==0:
         return("fizz")
     
     else:
