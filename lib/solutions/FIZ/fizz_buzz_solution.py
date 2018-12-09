@@ -1,29 +1,4 @@
 # noinspection PyUnusedLocal
-"""
-def fizz_buzz(number):
-    if number > 10 and ??
-    
-    if (number%3==0 or "3" in str(number)) and (number%5== 0 or "5" in str(number)):
-        return("fizz buzz") 
-    
-    elif number%5==0 or "5" in str(number):
-        return("buzz")
-    
-    elif number%3==0 or "3" in str(number):
-        return("fizz")
-    
-    else:
-        return(number)
-
-print(fizz_buzz(30))
-"""
-
-s = "111"
-
-#letters = list(s)
-
-#print(len(letters))
-
 def samedigit(num):
     r = []
     digits = list(str(num))
@@ -37,8 +12,25 @@ def samedigit(num):
     else:
         return True
 
+def fizz_buzz(number):
+    if  number > 10 and samedigit(number) == True and (number%3==0 or "3" in str(number) and  (number%5== 0 or "5" in str(number)):
+        return("fizz buzz deluxe")
 
-print(samedigit(555555))
+    elif number > 10 and samedigit(number) == True:
+        return("delux")
+
+    elif (number%3==0 or "3" in str(number)) and (number%5== 0 or "5" in str(number)):
+        return("fizz buzz") 
+    
+    elif number%5==0 or "5" in str(number):
+        return("buzz")
+    
+    elif number%3==0 or "3" in str(number):
+        return("fizz")
+    
+    else:
+        return(number)
+
 
 
 
