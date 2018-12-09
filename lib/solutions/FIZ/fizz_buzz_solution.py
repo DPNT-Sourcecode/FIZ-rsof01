@@ -31,5 +31,7 @@ def samedigit(num):
             return True
         else:
             return False
+ 
 
-print(samedigit(3313))
+print(samedigit(331))
+
