@@ -62,3 +62,6 @@ def fizz_buzz(num):
         return(num)
 
 print(buzz(30))     
+print(fizz(30))
+print(deluxe(30))
+print(fizz_buzz(30))
