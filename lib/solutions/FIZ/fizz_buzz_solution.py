@@ -13,7 +13,10 @@ def samedigit(num):
         return True
 
 def fizz_buzz(number):
-    if  number > 10 and samedigit(number) == True and (number%3==0 or "3" in str(number)) and  (number%5== 0 or "5" in str(number)):
+    if number > 10 and samedigit(number) == True and number%2!=0:
+        return("fake deluxe")
+    
+    elif number > 10 and samedigit(number) == True and (number%3==0 or "3" in str(number)) and  (number%5== 0 or "5" in str(number)):
         return("fizz buzz deluxe")
 
     elif number > 10 and samedigit(number) == True and (number%5==0 or "5" in str(number)):
@@ -21,7 +24,7 @@ def fizz_buzz(number):
     
     elif number > 10 and samedigit(number) == True and (number%3==0 or "3" in str(number)):
         return("fizz deluxe")
-    
+
     elif number > 10 and samedigit(number) == True:
         return("deluxe")
 
