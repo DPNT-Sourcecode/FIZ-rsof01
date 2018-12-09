@@ -20,6 +20,16 @@ print(fizz_buzz(30))
 
 s = "111"
 
-letters = list(s)
+#letters = list(s)
 
-print(len(letters))
+#print(len(letters))
+
+def samedigit(num):
+    digits = list(str(num))
+    for n in range(len(digits)-1):
+        if digits[n] == digits[n+1]:
+            return True
+        else:
+            return False
+
+print(samedigit(3313))
