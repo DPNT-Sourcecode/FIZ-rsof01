@@ -38,7 +38,8 @@ def samedigit(num):
         return True
 
 
-print(samedigit(335555))
+print(samedigit(555555))
+
 
 
 
