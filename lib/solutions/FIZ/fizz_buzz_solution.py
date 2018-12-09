@@ -20,16 +20,16 @@ def fizz_buzz(number):
     elif (number%3==0 or "3" in str(number)) and  (number%5== 0 or "5" in str(number)):
         return("fizz buzz deluxe")
 
-    elif (number%5==0 or "5" in str(number)) and number%2!=0:
+    elif (number%5==0 and "5" in str(number)) and number%2!=0:
         return("buzz fake deluxe")
 
-    elif (number%5==0 or "5" in str(number)):
+    elif (number%5==0 and "5" in str(number)):
         return("buzz deluxe")
     
-    elif (number%3==0 or "3" in str(number)) and number%2!=0:
+    elif (number%3==0 and "3" in str(number)) and number%2!=0:
         return("fizz fake deluxe")
 
-    elif(number%3==0 or "3" in str(number)):
+    elif(number%3==0 and "3" in str(number)):
         return("fizz deluxe")
 
     elif number%2!=0 and ((number%3==0 and "3" in str(number)) or (number%5== 0 and "5" in str(number))):
@@ -51,4 +51,5 @@ def fizz_buzz(number):
         return(number)
 
 #print(fizz_buzz(111))
+
 
