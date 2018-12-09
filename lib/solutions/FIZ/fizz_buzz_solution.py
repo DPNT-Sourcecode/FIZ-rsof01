@@ -60,3 +60,5 @@ def fizz_buzz(num):
         
     else:
         return(num)
+
+print(buzz(30))     
