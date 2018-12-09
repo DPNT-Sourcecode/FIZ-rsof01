@@ -26,11 +26,11 @@ s = "111"
 
 def samedigit(num):
     digits = list(str(num))
-    for n in range(len(digits)):
+    for n in range(len(digits)-1):
         if digits[n] != digits[n+1]:
             return False
- 
+        else:
+            return True
+    
 
-print(samedigit(333))
-
-
+print(samedigit(335333))
