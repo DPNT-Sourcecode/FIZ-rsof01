@@ -32,8 +32,11 @@ def samedigit(num):
             r.append(1)
         else:
             r.append(0)
-    
+    print(max(r))
 
-#print(samedigit(335333))
+
+samedigit(331415)
+
+
 
 
