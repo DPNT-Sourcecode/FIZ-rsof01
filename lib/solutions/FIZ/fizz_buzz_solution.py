@@ -29,8 +29,10 @@ def samedigit(num):
     for n in range(len(digits)-1):
         if digits[n] != digits[n+1]:
             return False
+            break
         else:
             return True
     
 
 print(samedigit(335333))
+
