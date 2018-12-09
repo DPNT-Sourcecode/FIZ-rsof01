@@ -22,4 +22,4 @@ s = "111"
 
 letters = list(s)
 
-print(letters.len)
+print(len(letters))
